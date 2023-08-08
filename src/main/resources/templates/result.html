@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+        První číslo: <span th:text="${calculatorDTO.number1}"></span><br/>
+        Druhé číslo: <span th:text="${calculatorDTO.number2}"></span><br/>
+        Třetí číslo: <span th:text="${calculatorDTO.number3}"></span><br/>
+
+    <p>
+        Výsledek: <span th:text="${result}"></span>
+    </p>
+</body>
+</html>
