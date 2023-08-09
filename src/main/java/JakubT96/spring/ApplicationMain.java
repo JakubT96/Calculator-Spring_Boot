@@ -12,7 +12,14 @@ public class ApplicationMain {
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("http://localhost:8080/calculator");
 
-        // zkusit napsat JUnit testy a Selenium 
+        // zkusit napsat JUnit testy a Selenium
+
+        //lsof -n -i4TCP:8080
+        //
+        //kill -9  PID
+        //
+        //PID se musí doplnit!!
+        //
     }
 
 }

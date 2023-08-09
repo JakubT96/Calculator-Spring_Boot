@@ -53,6 +53,8 @@ public class CalcService {
 
         } else
             return calculator.getNumber1() / calculator.getNumber2() + calculator.getNumber3();
+
+
         }
     }
 
